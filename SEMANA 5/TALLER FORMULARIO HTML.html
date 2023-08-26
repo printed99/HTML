@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/FRM CONTACTO.css">
+</head>
+<body>
+    <header>
+            <img src="./IMG/incap.png" alt="incap" width="100" height="100"> 
+        <h1>FORMULARIO INCAP</h1>    
+    </header>
+        <NAV>
+            <p>Este formulario es para es registrar el ingreo de un estudiante</p>
+        </NAV>
+            <section>
+                <!-- seccion de formulsrio estuydiante -->
+                <form action="">
+                    <fieldset>
+                        <label for="">NOMBRE COMPLETO:</label>
+                        <input placeholder="ingrese su nombre completo" autofocus required>
+                        <br><br>
+                        <label for="">E-MAIL:</label>
+                        <input type="email" placeholder="ingrese su correo personal" required>
+                        <br><br>
+                        <label for="">CONTRASEÑA:</label>
+                        <input type="password" placeholder="ingrese su contraseña personal" required>
+                        <br><br>
+                        <!-- seccion de boton checkbox -->
+                        <label for="">SELECCIONE TUS HOBBIES:</label>
+                        <BR>
+                        <input type="checkbox">cine
+                        <input type="checkbox">lectura
+                        <input type="checkbox">deporte
+                        <br><br>
+                        <!-- seccion de boton radio -->
+                        <label for="">ESTADO CIVIL:</label>
+                        <br>
+                        <input type="radio" name="estadocivil" value="casado">casado(a)
+                        <input type="radio" name="estadocivil" value="soltero"> soltero(a)
+                        <input type="radio" name="estadocivil" value="viudo">viudo(a)
+                        <br><br>
+                        <label for="">PROGRAMAS TECNICOS INCAP</label>
+                        <BR>
+                        <select name="" id="">
+                        <option value="">seleccione programa</option><br>
+                        <option value="sistemas">programacion BBDD</option><br>
+                        <option value="diseño">diseño grafico</option><br>
+                        <option value="contabilidad">contabilidad</option><br> 
+                        
+                        </select>
+                        <br>
+                        <label for="">fecha de nacimiento</label>
+                        <input type="date" title="Ingrese su fecha de nacimiento" >
+                        <br>
+                        <label for="">Ingrese su edad </label>
+                        <input type="number" min="1" max="120">
+                        <br><br>
+                        <label for="">Subir foto-Archivo</label>
+                        <input type="file">
+                        <br>
+                        <textarea name="" id="" cols="40" rows="5"></textarea>
+                    </fieldset>
+                    <br><br>
+                    <!-- seccion de botones de enviar y cancelar envio de datos -->
+                    <button type="submite">ENVIAR</button>
+                    <button type="reset">CANCELAR</button>
+                    <br><br>
+                </form>
+            </section>
+            <footer>
+                <cite>Deerechos Reservados &copy;2023 @blady </cite>
+            </footer>
+</body>
+</html>

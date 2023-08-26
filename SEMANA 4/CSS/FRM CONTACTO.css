@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(160, 203, 240);
+    font-family: initial;
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgb(0, 0, 0) !important;
+    border: 2px solid blue;
+    border-radius:20px;
+    /* configuracion de dosplay flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: rgb(140, 209, 248);
+    border: 2px solid rgb(53, 0, 246);
+    border-radius: 20px;
+    /* configuracion de dosplay flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+}
+section{
+    width: 40%;
+    border: 2px solid rgb(8, 0, 255);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background: linear-gradient(rgb(121, 228, 246),rgb(83, 170, 251));
+}
+form{
+    background-color: rgb(155, 215, 255);
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 00 10px purple;
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+/*pseudoclase focus: al dar clilc en botón */
+input:focus, textarea:focus{
+    border-color: rgb(2, 2, 2);
+    cursor: pointer;
+    box-shadow: outset 0 0 10px rgba(0,29,255,0.6);
+    outline:0 none;
+}
+form button{
+    width: 40%;
+    margin: 15px 20px;
+    height: 40px;
+    background: radial-gradient(rgb(112, 186, 239),rgb(100, 218, 239));
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+
+}
+/*pseudoclase hover: al pasar mouse por encima control*/
+form button:hover{
+    background: rgb(255, 255, 255);
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
